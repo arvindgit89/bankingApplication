@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-30T16:45:49 IST" name="Master Suite" finished-at="2025-08-30T16:46:00 IST" duration-ms="11091">
+    <groups>
+    </groups>
+    <test started-at="2025-08-30T16:45:49 IST" name="Test" finished-at="2025-08-30T16:46:00 IST" duration-ms="11091">
+      <class name="testCases.TC003_AccountOverviewTest">
+        <test-method signature="verify_account_overview()[pri:0, instance:testCases.TC003_AccountOverviewTest@2d29b4ee]" started-at="2025-08-30T16:45:56 IST" name="verify_account_overview" finished-at="2025-08-30T16:45:57 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_overview -->
+      </class> <!-- testCases.TC003_AccountOverviewTest -->
+      <class name="testCases.TC004_OpenNewAccountTest">
+        <test-method signature="verify_openNewAccount()[pri:0, instance:testCases.TC004_OpenNewAccountTest@69ee81fc]" started-at="2025-08-30T16:45:57 IST" name="verify_openNewAccount" finished-at="2025-08-30T16:46:00 IST" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_openNewAccount -->
+      </class> <!-- testCases.TC004_OpenNewAccountTest -->
+      <class name="testCases.TC002_CustomerLoginTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.TC002_CustomerLoginTest@23941fb4]" started-at="2025-08-30T16:45:49 IST" name="launchBrowser" finished-at="2025-08-30T16:45:55 IST" duration-ms="5557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verify_customer_login()[pri:0, instance:testCases.TC002_CustomerLoginTest@23941fb4]" started-at="2025-08-30T16:45:55 IST" name="verify_customer_login" finished-at="2025-08-30T16:45:56 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_customer_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_CustomerLoginTest@23941fb4]" started-at="2025-08-30T16:46:00 IST" name="tearDown" finished-at="2025-08-30T16:46:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_CustomerLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
